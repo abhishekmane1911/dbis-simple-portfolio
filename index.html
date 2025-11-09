@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Abhishek</span></h1>
+            <p class="hero-subtitle">2nd year CSE Student at IIT Indore</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-normal">View My Work</a>
+                <a href="mailto:abhishekmane1911@gmail.com" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate student specializing in CS. I enjoy building web applications.</p>
+                    <p>Currently pursuing my Btech degree from IIT Indore in CSE.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title"> Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript,Typescript , Django, JWT,  </p>
+                    
+                </div>
+                <div class="skill-card">
+                    
+                    <h3>Database Systems</h3>
+                    <p>SQL, MySQL, PostgreSQL</p>
+                    
+                </div>
+                <div class="skill-card">
+                    
+                    <h3>Programming</h3>
+                    <p>Python, C++, JavaScript, Typescript, </p>
+                    
+                </div>
+                <div class="skill-card">
+                    
+                    <h3>ML</h3>
+                    <p>Pandas, NumPy, PyTorch, </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-image : url('csesa.png'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                        <div class="project-overlay" >
+                            <a href="https://csesa-website-pi.vercel.app/" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>CSESA Website</h3>
+                        <p>Designed and implemented a relational database for an online store with inventory management and order tracking.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Typescript</span>
+                            <span>Framer Motion</span>
+                            <span>Tailwind CSS</span>
+                            <span>PostgreSQL</span>
+                            <span>Django</span>
+                            
+                        </div>
+                        <a href = "https://github.com/CSESA-IITI/CSESA-Website" class="github-link btn">Github</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-image : url('defi.png'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                        <div class="project-overlay" >
+                            <a href="https://ninad00.github.io/CredixSolana/" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>CREDIX</h3>
+                        <p>A secure and transparent DeFi protocol for efficient lending and borrowing. Mint DSC stablecoin or provide liquidity to earn yield.</p>
+                        <div class="project-tags">
+                            <span>Solana</span>
+                            <span>Typescript</span>
+                            <span>Rust</span>
+                        </div>
+                        <a href = "https://github.com/ninad00/CredixSolana" class="github-link btn">Github</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/abhishekmane1911/GetCycles" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>GetCycles</h3>
+                        <p>E-Commerce Platform for Cycles</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Typescript</span>
+                            <span>Framer Motion</span>
+                            <span>Tailwind CSS</span>
+                            <span>PostgreSQL</span>
+                            <span>Django</span>
+                        </div>
+                        <a href = "https://github.com/abhishekmane1911/GetCycles" class="github-link btn">Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Abhishek. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/abhishekmane1911" class="social-link">GitHub</a>
+                    <a href="https://www.linkedin.com/in/abhishekmane19/" class="social-link">LinkedIn</a>
+                    <a href="https://www.instagram.com/abhishek_mane_1911/" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
